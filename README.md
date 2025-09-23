@@ -1,106 +1,103 @@
-# Retail-sales-analysis
-Retail Order Data Analysis Dashboard
+🛒 Retail Order Data Analysis Dashboard
 
 This is a Streamlit-based interactive dashboard for analyzing retail order data stored in a MySQL/TiDB database. The dashboard provides insights into sales performance, profitability, discounts, pricing, and market trends with dynamic queries and visual outputs.
 
-Table of Contents
+📋 Table of Contents
 
-Features
+✨ Features
 
-Installation
+⚙️ Installation
 
-Database Configuration
+🗄️ Database Configuration
 
-Usage
+🚀 Usage
 
-Query Categories & Insights
+📊 Query Categories & Insights
 
-Closing Notes
+📝 Closing Notes
 
-Features
+✨ Features
 
-Connects to a remote MySQL/TiDB database using PyMySQL.
+🔗 Connects to a remote MySQL/TiDB database using PyMySQL.
 
-Fetches retail order data dynamically and displays it in tables.
+📊 Fetches retail order data dynamically and displays it in tables.
 
-Provides insights and recommendations for each query.
+💡 Provides insights and actionable recommendations for each query.
 
-Categorizes queries into tabs for better navigation:
+🗂️ Categorizes queries into tabs for better navigation:
 
-Sales Analysis
+🚀 Usage
 
-Profit Analysis
+Open the app in your browser (default: http://localhost:8501).
 
-Discount & Pricing
+Navigate through the tabs:
 
-Market Trends
+*Sales Analysis – Track top-selling products, monthly sales, and regional performance.
 
-Usage
+*Profit Analysis – Identify high/low profit products, top cities, and category profitability.
 
-Open the app in your browser (usually at http://localhost:8501).
+*Discount & Pricing – Analyze discount impact, average pricing, and category-level discounts.
 
-Navigate through tabs:
+*Market Trends – Understand seasonal trends, revenue fluctuations, and top customer segments.
 
-Sales Analysis – Track top-selling products, monthly sales, regional performance.
-
-Profit Analysis – Identify high and low profit products, top cities, and category profitability.
-
-Discount & Pricing – Analyze impact of discounts, average pricing, and category discounts.
-
-Market Trends – Understand seasonal trends, revenue fluctuations, and top customer segments.
-
-Click on any query button to fetch data and view corresponding insights.
+Click any query button to fetch data and view corresponding insights.
 
 Insights provide actionable recommendations for sales, marketing, and pricing strategies.
 
-Query Categories & Insights
+📊 Query Categories & Insights
 
-Sales Analysis:
+💰 Sales Analysis
 
-Top-selling products
+*Top-selling products
 
-Monthly sales trends
+*Monthly sales trends
 
-Regional sales
+*Regional sales performance
 
-Top 10 highest revenue products
+*Top 10 highest revenue products
 
-Yearly revenue trends
+*Yearly revenue trends
 
-Profit Analysis:
+📈 Profit Analysis
 
-High-profit products
+*High-profit products
 
-Lowest-profit products
+*Lowest-profit products
 
-Top cities by profit margin
+*Top cities by profit margin
 
-Total profit per category
+*Total profit per category
 
-Most profitable product category
+*Most profitable product category
 
-Discount & Pricing:
+🏷️ Discount & Pricing
 
-Products with discounts > 20%
+*Products with discounts > 20%
 
-Impact of discount on sales
+*Impact of discount on sales
 
-Total discounts by category
+*Total discounts by category
 
-Average sale price per product
+*Average sale price per product category
 
-Average discount percentage per region
+*Average discount percentage per region
 
-Market Trends:
+🌐 Market Trends
 
-Highest sales by month/year
+*Highest sales by month/year
 
-Lowest monthly and yearly sales
+*Lowest monthly and yearly sales
 
-Revenue per category
+*Revenue per category
 
-Regions with highest average sale price
+*Regions with highest average sale price
 
-Top segments by order quantity
+*Top segments by order quantity
 
-Each query provides data tables along with insights and recommendations.
+📝 Closing Notes
+
+Ensure the database contains the kaggle_project.kaggle table with appropriate fields (order_date, category, sub_category, quantity, sale_price, cost_price, discount, discount_percent, profit, region, city, segment).
+
+Properly close the app to ensure database connections are released.
+
+Designed for retail analysts and business decision-makers to quickly extract actionable insights from sales data.
